@@ -285,6 +285,7 @@ if __name__ == "__main__":
             "user_query": user_input,
             "flight_results": "",
             "hotel_results": "",
+            "weather_results":"",
             "itinerary": "",
             "llm_calls": 0
         },

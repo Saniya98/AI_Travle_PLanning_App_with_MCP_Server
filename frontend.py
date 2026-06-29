@@ -305,7 +305,7 @@ with st.sidebar:
     st.markdown("<div class='sidebar-title'>🌍 AI Travel Planner</div>", unsafe_allow_html=True)
     st.markdown("---")
 
-    thread_id = st.text_input("👤 User ID", value="aarohi_user",
+    thread_id = st.text_input("👤 User ID", value="saniya_user",
                               help="Your session ID — keeps travel history across queries")
 
     st.markdown("<div class='sidebar-title'>Powered by</div>", unsafe_allow_html=True)
@@ -364,7 +364,7 @@ for qc, label in zip(qcols, QUICK):
             quick_fill = label
 
 user_query = st.text_area(
-    "",
+    "Enter your query",
     value=quick_fill,
     placeholder="e.g. Plan a complete 7-day Japan trip including flights, hotels and sightseeing under ₹2 lakhs",
     height=100,
